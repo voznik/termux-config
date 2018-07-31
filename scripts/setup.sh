@@ -2,7 +2,7 @@
 
 echo "This script sets up the Termux App."
 
-masterzip_url="https://github.com/alexs77/termux-config/archive/master.zip"
+masterzip_url="https://github.com/voznik/termux-config/archive/master.zip"
 masterzip_file="$HOME/tmp/termux-config-master.zip"
 masterzip_dir="$HOME/tmp/termux-config"
 master_dir="$masterzip_dir/termux-config-master"
