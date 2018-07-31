@@ -1,5 +1,5 @@
 
 apt update ; \
-apt install -y wget ; \
+apt install -y curl ; \
 hash -r ; \
-wget -qO- https://github.com/alexs77/termux-config/raw/master/scripts/setup.sh | busybox ash -x
+sh -c "$(curl -sSL https://github.com/voznik/termux-config/raw/master/scripts/setup.sh)"
